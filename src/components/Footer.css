@@ -1,0 +1,12 @@
+.invite-text {
+  margin-top: 350px;
+  align-content: center;
+  font-weight: 700;
+  color: white;
+  background-color: rgba(30, 85, 107, 0.9);
+  text-align: center;
+  padding: 15px 0;
+}
+
+.ui-grid {
+}

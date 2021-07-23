@@ -1,0 +1,54 @@
+.oneDayContainer {
+  display: flex;
+}
+.checkBox {
+  width: 70px;
+}
+
+.updateButtons {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 15px;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgba(3, 3, 3, 0.5);
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  
+  left: 0;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.subPara {
+  font-size: 12px;
+}
+
+.cards {
+  padding-top: 10px;
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
